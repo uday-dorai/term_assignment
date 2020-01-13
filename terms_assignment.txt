@@ -7,19 +7,32 @@ ri <item name> --(remove file)
 ls or dir --(shows all directories and files in that directory)
 cls --(clear command line screen)
 more <file name>  --(read the file)
-pwd
+mv <file> <destination> --(move the file to some destination)
 exit
 
 ###2:-10 popular network commands
-ping 
-ifconfig 
-netstat
-tracert
-pathping
-ftp
-route
-telnet 
+ping <hostname> check the network connection
+ipconfig (it gives all the connections)
+netstat	(it give stats on all network activities)
+tracert (trace the route that a packet takes to reach the destination )
+pathping <hostname> it identify which routers are on path
+hostname (gives the name of the host)
+getmac (shows the MAC address of network interfaces)
+nslookup (troubleshoot DNS)
+route 
 finger
+
+###3:- 10 OS commands 
+cls
+shutdown 
+systeminfo
+tree (show the folder content in tree format)
+cd (change directory)
+mkdir (make new directory)
+copy <file> <destination>
+tasklist (shows all the task that are running in the device)
+taskill /IM taskname /F(will kill the the task that is running)
+exit
 
 
 ###4:-10 popular Git commands
