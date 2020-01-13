@@ -87,18 +87,19 @@ Normalization is a database design technique which organizes tables in a manner 
 It divides larger tables to smaller tables and links them using relationships. 
 
 ###15:-Database Sharding
-Sharding involves breaking up one’s data into two or more smaller chunks, called logical shards
-Sharding is a scale-out approach in which database tables are partitioned, and each partition is put on a separate RDBMS server. 
-For MySQL, this means each node is its own separate MySQL RDBMS managing its own separate set of data partitions
+Database Sharding involves breaking the data into smaller chunks called logical shards.
+this shards can be a seperate RDBMS server.
+this makes the data retrieve faster;
 
 ###16:-7 network layers
-Layer 1 - Physical.
+
+Layer 1 - Physical(cables, cards and physical aspects)
 Layer 2 - Data Link.
 Layer 3 - Network.
 Layer 4 - Transport.
 Layer 5 - Session.
 Layer 6 - Presentation.
-Layer 7 - Application
+Layer 7 - Application(WWW browsers, NFS, HTTP )
 
 ###17:-Request Response Protocol
 HTTP works as a request-response protocol between a client and server. 
@@ -130,11 +131,11 @@ Web services that conform to the REST architectural style, called RESTful Web se
 
 ###21:-HTML
 Hypertext Markup Language is the standard markup language for documents designed to be displayed in a web browser. 
-It can be assisted by technologies such as Cascading Style Sheets and scripting languages such as JavaScript
+It can be assisted by technologies such as CSS and scripting languages such as JavaScript
 
 
 ###22:-Box Model
-The CSS box model is essentially a box that wraps around every HTML element.
+Box Model is essentially a box that wraps around every HTML element.
 It consists of: margins, borders, padding, and the actual content.
 
 ###23:-Margin
@@ -196,11 +197,10 @@ An HTML element becomes a grid container when its display property is set to gri
 
 ###29:-Git
 Git is a distributed version-control system for tracking changes in source code during software development. It is designed for coordinating work among programmers, 
-but it can be used to track changes in any set of files. Its goals include speed, data integrity, and support for distributed, non-linear workflows
 
 
-###30:-HTTP 
-HTTP means HyperText Transfer Protocol. HTTP is the underlying protocol used by the World Wide Web and this protocol defines how messages are formatted and 
+###30:-HTTP(HyperText Transfer Protocol) 
+HTTP is the underlying protocol used by the World Wide Web and this protocol defines how messages are formatted and 
 transmitted, and what actions Web servers and browsers should take in response to various commands
 
 
@@ -261,13 +261,15 @@ In most modern operating systems, a thread exists within a process - that is, a 
 ###44:-SOLID
 S-Single responsibility principle(A class should only have a single responsibility)
 O-Open–closed principle(open for extension, but closed for modification)
-L-Liskov substitution principle(Objects in a program should be replaceable with instances of their subtypes without altering the correctness of that program.)
-I-Interface segregation principle(Many client-specific interfaces are better than one general-purpose interface)
+L-Liskov substitution principle(Objects in a program should be replaceable with instances of 									their subtypes without altering the correctness of that program.)
+I-Interface segregation principle(Many client-specific interfaces are better than one 		general-purpose interface)
 D-Dependency inversion principle(One should "depend upon abstractions, [not] concretions)
 
 ###45:-Apache Web Server
+Apache Wev Server is like a middleman between server and the client machine.it pulls the content
+from the server on user request and deliver it to the web
+
 Apache is an open-source and free web server software that powers around 46% of websites around the world
-It allows website owners to serve content on the web
 
 ###46:-Nginx Web Server
 
@@ -338,14 +340,13 @@ it with the stored session data and proceeds to process the requested action.
 
 
 ###61:-Token based authentication
-Token based authentication is one in which the user state is stored on the client. 
-This has grown to be the preferred mode of authentication for RESTful APIs. 
-In the token based authentication, the user data is encrypted into a JWT (JSON Web Token) with a secret and then sent back to the client.
+Token based authentication is one in which the user state is stored on the client.  
+In this  , the user data is encrypted into a JWT (JSON Web Token) with a secret and then sent back to the client.
 The JWT is then stored on the client side mostly localStorage and sent as a header for every subsequent request.
 The server receives and validates the JWT before proceeding to send a response to the client.
 
 ###62:-Authorization
-Authorization is to give access to the information and access control in particular area.
+Authorization is to give permission to access the information and access control in particular area.
 
 ###63:-Docker
 Docker is a set of platform as a service products that use OS-level virtualization to deliver software in packages called containers.
