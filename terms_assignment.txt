@@ -1,13 +1,13 @@
-//
+﻿//
 10 popular commands - daily use
-cd ---------(change directory)
-mkdir or dir ---------(make new directory)
-rd -----------(remove directory)
-ni <give name to item> ----------(create new file)
-ri <item name> --------(remove file)
-ls or dir --------(shows all directories and files in that directory)
-cls --------(clear command line screen)
-more <file name>  -------(read the file)
+cd --(change directory)
+mkdir or dir --(make new directory)
+rd ---(remove directory)
+ni <give name to item> --(create new file)
+ri <item name> --(remove file)
+ls or dir --(shows all directories and files in that directory)
+cls --(clear command line screen)
+more <file name>  --(read the file)
 
 
 
@@ -276,3 +276,124 @@ forced to perform resource-heavy procedures while the user waits for the result
 Apache Kafka is a distributed streaming platform capable of handling trillions of events a day. Kafka provides low-latency, high-throughput, 
 fault-tolerant publish and subscribe pipelines and is able to process streams of events
 
+
+//51:-Zookeeper
+Apache ZooKeeper is a software project of the Apache Software Foundation. It is essentially a service for distributed systems offering a hierarchical key-value store, 
+which is used to provide a distributed configuration service, synchronization service, and naming registry for large distributed systems
+
+
+//52:-Service-oriented architecture (SOA)
+Service-oriented architecture (SOA) is a style of software design where services are provided to the other components by application components, 
+through a communication protocol over a network. The basic principles of service-oriented architecture are independent of vendors, products and technologies.
+
+
+//53:-Redis? Why?
+Redis is an open source (BSD licensed), in-memory data structure store, used as a database, cache and message broker.
+Redis data structures resolve very complex programming problems with simple commands executed within the data store, 
+reducing coding effort, increasing throughput, and reducing latency
+
+//54:-Solr? Why?(Shareable Online Learning Resources )
+Solr is used for full-text search, hit highlighting, faceted search, real-time indexing, dynamic clustering, database integration, 
+NoSQL features and rich document handling.
+
+//55:-ElasticSearch? Why?
+Elasticsearch is a search engine based on the Lucene library. It provides a distributed, multitenant-capable full-text search engine 
+with an HTTP web interface and schema-free JSON documents
+
+//56:-Celery? Why?
+Celery is an open source asynchronous task queue or job queue which is based on distributed message passing. 
+While it supports scheduling, its focus is on operations in real time
+
+
+//57:-Node JS
+node js is a javaScript runtime environment that executes JavaScript code outside of a browser.
+
+
+//58:-MongoDB? Why?
+MongoDB is a non-relational DMS .it store data that provides high performance, high availability, and automatic scaling
+
+//59:-Progressive Web App
+A Progressive Web App (PWA) is a web app that uses modern web capabilities to deliver an app-like experience to users.
+
+
+//60:-Session based authentication
+Session based authentication is one in which the user state is stored on the server’s memory. 
+When using a session based auth system, the server creates and stores the session data in the server memory
+when the user logs in and then stores the session Id in a cookie on the user browser.
+The session Id is then sent on subsequent requests to the server and the server compares 
+it with the stored session data and proceeds to process the requested action.
+
+
+//61:-Token based authentication
+Token based authentication is one in which the user state is stored on the client. 
+This has grown to be the preferred mode of authentication for RESTful APIs. 
+In the token based authentication, the user data is encrypted into a JWT (JSON Web Token) with a secret and then sent back to the client.
+The JWT is then stored on the client side mostly localStorage and sent as a header for every subsequent request.
+The server receives and validates the JWT before proceeding to send a response to the client.
+
+//62:-Authorization
+Authorization is to give access to the information and access control in particular area.
+
+//63:-Docker
+Docker is a set of platform as a service products that use OS-level virtualization to deliver software in packages called containers.
+Containers are isolated from one another and bundle their own software, libraries and configuration files; 
+they can communicate with each other through well-defined channels
+
+//64:-IaaS
+Infrastructure as a service (IaaS) is a form of cloud computing that provides virtualized computing resources over the internet.
+
+
+//65:-AWS
+Amazon Web Services is a subsidiary of Amazon that provides on-demand cloud computing platforms 
+and APIs to individuals, companies, and governments, on a metered pay-as-you-go basis
+
+//66:-PaaS
+Platform as a service (PaaS) is a cloud computing model in which a third-party provider delivers hardware and software tools 
+-- usually those needed for application development -- to users over the internet.
+
+
+//67:-Heroku 
+One of the first cloud platforms, Heroku has been in development since June 2007, 
+Heroku is a platform as a service (PaaS) that enables developers to build, run, and operate applications entirely in the cloud.
+
+
+
+//68:-Hoisting
+Hoisting is JavaScript's default behavior of moving declarations to the top,
+first function is called then it is declared.
+
+//69:-Pass by Reference/Pass By Value
+pass by value means actual value of variable is passed
+pass by reference means reference to the memory location of the variable is passed
+
+//70:-closure
+closure gives you access to an outer function's scope from an inner function
+
+//71:-	Prototypal Inheritance 
+A prototype is a working object instance. Objects inherit directly from other objects
+
+
+//72:-Mutable Methods in JS
+Updating state applies across all references to that variable
+
+//73:-Immutable Methods in JS
+Changing the internal state of the data, so the reference always gets reassigned to a new object
+
+//74:-React
+React is a JavaScript library for building user interfaces.
+
+//75:-Why React?
+React is used to build single page applications. 
+React allows us to create reusable UI components.
+
+//76:-State
+it is an object that represents the parts of the app that can change
+
+//77:- Props
+props stand for properties nad is used for passing data from one component to other component
+
+//78:- redux
+redux is a javaScript library for managing application state
+
+//79:- Why Redux?
+ it helps us manage the data  display and how we respond to user actions
